@@ -1,0 +1,10 @@
+2024-03-19 19:15:38 status unpacked python3-wcmatch:all 8.4-2
+2024-03-19 19:15:38 status half-configured python3-wcmatch:all 8.4-2
+2024-03-19 19:15:38 status installed python3-wcmatch:all 8.4-2
+2024-03-19 19:15:38 configure ansible-lint:all 6.13.1-1ubuntu1 <none>
+2024-03-19 19:15:38 status unpacked ansible-lint:all 6.13.1-1ubuntu1
+2024-03-19 19:15:38 status half-configured ansible-lint:all 6.13.1-1ubuntu1
+2024-03-19 19:15:38 status installed ansible-lint:all 6.13.1-1ubuntu1
+2024-03-19 19:15:38 trigproc man-db:amd64 2.11.2-1 <none>
+2024-03-19 19:15:38 status half-configured man-db:amd64 2.11.2-1
+2024-03-19 19:15:39 status installed man-db:amd64 2.11.2-1

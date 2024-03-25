@@ -1,0 +1,33 @@
+2024-03-25T10:52:25.955645+01:00 milton-precision-7560 systemd[2493]: Started vte-spawn-84d10b98-a571-4a7e-ab9b-5a4ce72867bc.scope - VTE child process 19018 launched by tilix process 3158.
+2024-03-25T10:53:55.003645+01:00 milton-precision-7560 systemd[2493]: Started vte-spawn-478b162c-03c6-4ae3-a532-41aeefea8371.scope - VTE child process 19132 launched by tilix process 3158.
+2024-03-25T10:55:01.616689+01:00 milton-precision-7560 CRON[19325]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2024-03-25T10:56:01.082115+01:00 milton-precision-7560 dbus-daemon[2527]: [session uid=1000 pid=2527] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.14' (uid=1000 pid=2598 comm="/usr/libexec/tracker-miner-fs-3" label="unconfined")
+2024-03-25T10:56:01.103625+01:00 milton-precision-7560 systemd[2493]: Starting tracker-extract-3.service - Tracker metadata extractor...
+2024-03-25T10:56:01.138014+01:00 milton-precision-7560 dbus-daemon[2527]: [session uid=1000 pid=2527] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+2024-03-25T10:56:01.138151+01:00 milton-precision-7560 systemd[2493]: Started tracker-extract-3.service - Tracker metadata extractor.
+2024-03-25T10:56:18.905391+01:00 milton-precision-7560 google-chrome.desktop[5409]: [5451:5456:0325/105618.905141:ERROR:ssl_client_socket_impl.cc(975)] handshake failed; returned -1, SSL error code 1, net_error -101
+2024-03-25T10:58:30.403564+01:00 milton-precision-7560 snapd[953]: api_snaps.go:424: Installing snap "rustup" revision unset
+2024-03-25T10:58:46.336589+01:00 milton-precision-7560 snapd[953]: api_snaps.go:424: Installing snap "rustup" revision unset
+2024-03-25T10:58:47.148317+01:00 milton-precision-7560 systemd[1]: Reloading.
+2024-03-25T10:58:47.499712+01:00 milton-precision-7560 systemd[1]: Mounting snap-rustup-1465.mount - Mount unit for rustup, revision 1465...
+2024-03-25T10:58:47.503276+01:00 milton-precision-7560 kernel: [151555.219478] loop15: detected capacity change from 0 to 6784
+2024-03-25T10:58:47.505498+01:00 milton-precision-7560 systemd[1]: Mounted snap-rustup-1465.mount - Mount unit for rustup, revision 1465.
+2024-03-25T10:58:47.639244+01:00 milton-precision-7560 kernel: [151555.356051] kauditd_printk_skb: 5 callbacks suppressed
+2024-03-25T10:58:47.639257+01:00 milton-precision-7560 kernel: [151555.356053] audit: type=1400 audit(1711360727.632:129): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.rustup.cargo" pid=19734 comm="apparmor_parser"
+2024-03-25T10:58:47.639257+01:00 milton-precision-7560 kernel: [151555.356098] audit: type=1400 audit(1711360727.632:130): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.rustup.cargo-clippy" pid=19735 comm="apparmor_parser"
+2024-03-25T10:58:47.639259+01:00 milton-precision-7560 kernel: [151555.356295] audit: type=1400 audit(1711360727.632:131): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.rustup.cargo-fmt" pid=19736 comm="apparmor_parser"
+2024-03-25T10:58:47.639260+01:00 milton-precision-7560 kernel: [151555.356366] audit: type=1400 audit(1711360727.632:132): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.rustup.cargo-miri" pid=19737 comm="apparmor_parser"
+2024-03-25T10:58:47.639261+01:00 milton-precision-7560 kernel: [151555.356474] audit: type=1400 audit(1711360727.632:133): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.rustup.clippy-driver" pid=19738 comm="apparmor_parser"
+2024-03-25T10:58:47.639261+01:00 milton-precision-7560 kernel: [151555.356552] audit: type=1400 audit(1711360727.632:134): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.rustup.rustup" pid=19746 comm="apparmor_parser"
+2024-03-25T10:58:47.639280+01:00 milton-precision-7560 kernel: [151555.356605] audit: type=1400 audit(1711360727.632:135): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.rustup.rls" pid=19739 comm="apparmor_parser"
+2024-03-25T10:58:47.639280+01:00 milton-precision-7560 kernel: [151555.356912] audit: type=1400 audit(1711360727.632:136): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.rustup.rust-gdb" pid=19741 comm="apparmor_parser"
+2024-03-25T10:58:47.639282+01:00 milton-precision-7560 kernel: [151555.357097] audit: type=1400 audit(1711360727.632:137): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.rustup.rust-lldb" pid=19742 comm="apparmor_parser"
+2024-03-25T10:58:47.639282+01:00 milton-precision-7560 kernel: [151555.357132] audit: type=1400 audit(1711360727.632:138): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.rustup.rust-analyzer" pid=19740 comm="apparmor_parser"
+2024-03-25T10:58:49.571755+01:00 milton-precision-7560 systemd[2493]: Started snap.rustup.cargo-4733d341-592f-49b3-b070-364e87c91b95.scope.
+2024-03-25T10:58:55.983935+01:00 milton-precision-7560 systemd[2493]: Started snap.rustup.cargo-7ffeb91c-39ae-4d64-8d71-71cb7c48d56a.scope.
+2024-03-25T10:59:04.211926+01:00 milton-precision-7560 systemd[2493]: Started snap.rustup.rustup-fa68d8b6-6e3a-4da6-9f38-b7273439479d.scope.
+2024-03-25T10:59:13.845907+01:00 milton-precision-7560 systemd[2493]: snap.rustup.rustup-fa68d8b6-6e3a-4da6-9f38-b7273439479d.scope: Consumed 8.411s CPU time.
+2024-03-25T10:59:15.655711+01:00 milton-precision-7560 systemd[2493]: Started snap.rustup.cargo-eff5c16f-6917-4cae-a713-aeb028b5a7ca.scope.
+2024-03-25T10:59:39.179060+01:00 milton-precision-7560 systemd[2493]: snap.rustup.cargo-eff5c16f-6917-4cae-a713-aeb028b5a7ca.scope: Consumed 3min 47.953s CPU time.
+2024-03-25T11:05:01.623064+01:00 milton-precision-7560 CRON[22015]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2024-03-25T11:07:35.256358+01:00 milton-precision-7560 google-chrome.desktop[5409]: [5451:5456:0325/110735.256095:ERROR:ssl_client_socket_impl.cc(975)] handshake failed; returned -1, SSL error code 1, net_error -101
