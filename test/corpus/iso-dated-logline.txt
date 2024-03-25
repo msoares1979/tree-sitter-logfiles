@@ -1,0 +1,9 @@
+==================
+Return statements
+==================
+
+2024-03-25T10:52:25.955645+01:00 milton-precision-7560 systemd[2493]: Started vte-spawn-84d10b98-a571-4a7e-ab9b-5a4ce72867bc.scope - VTE child process 19018 launched by tilix process 3158.
+
+---
+
+(source_file (logline (timestamp hostname servicename message)))
